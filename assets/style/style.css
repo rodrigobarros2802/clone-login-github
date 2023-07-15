@@ -128,20 +128,30 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 65px;
 }
 
 .links li {
     list-style: none;
 }
 
-
-.links li a {
+.links li:nth-child(1) a, li:nth-child(2) a, li:nth-child(3) a {
     text-decoration: none;
     font-size: 13px;
     color: #2f81f7;
 }
 
+.links li:nth-child(4) a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #7d8590;
+}
+
 .links li a:hover {
     text-decoration: underline;
 }
+
+.links li:nth-child(4) a:hover {
+    color: #2f81f7;
+}
+
