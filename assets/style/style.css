@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #0d1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.cabecalho img {
+    max-width: 50px;
+    margin-top: 25px;
+}
+
+.cabecalho h2 {
+    font-weight: 100;
+    margin: 25px 0 20px 0;
+}
+
+.formul .wrapper {
+    background: #161b22;
+    color: #fff;
+    width: 350px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.wrapper .input-box, 
+.input-box-link {
+    font-size: 13px;
+    width: 100%;
+}
+
+.input-box input,
+.input-box-link input {
+    width: 100%;
+    height: 30px;
+    background: #0d1117;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 15px 0;
+    border: 1px solid rgba(255, 255, 255, .1);
+    color: #fff;
+    padding: 0 0 0 10px;
+}
+
+.input-box-link a {
+    text-decoration: none;
+    color: #2f81f7; 
+}
+
+.input-box input:focus, .input-box-link input:focus{
+    border: 2px solid #2f81f7;
+}
+
+.btn {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    background: #26a641;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #39d353;
+}
+
+.register {
+    background: seagreen;
+}
+
+.links {
+    background: yellow;
+}
