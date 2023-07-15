@@ -125,7 +125,7 @@ body {
 
 .links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin-top: 60px;
@@ -133,4 +133,15 @@ body {
 
 .links li {
     list-style: none;
+}
+
+
+.links li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #2f81f7;
+}
+
+.links li a:hover {
+    text-decoration: underline;
 }
