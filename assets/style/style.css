@@ -101,17 +101,8 @@ body {
 }
 
 .register {
-    background: seagreen;
-}
-
-.links {
-    background: yellow;
-}
-
-.register {
     width: 100%;
     margin: 15px 15px;
-    background: #0d1117;
     border: 1px solid rgba(255, 255, 255, .1);
     border-radius: 5px;
     padding: 15px 15px;
@@ -132,3 +123,14 @@ body {
     text-decoration: underline;
 }
 
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.links li {
+    list-style: none;
+}
