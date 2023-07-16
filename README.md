@@ -19,12 +19,11 @@
 <h3 align="center"></h3>
 
 <h1 align="center">:trophy: Desafio</h1>
-<h3 align="center"></h3>
+<h3 align="center">Recriar a página de login do GitHub com o propósito de deixar identica.</h3>
 
 <h1 align="center">:hammer_and_wrench: Tecnologias</h1>
-<h3 align="center"></h3>
-<h3 align="center"></h3>
-<h3 align="center"></h3>
+<h3 align="center">HTML5</h3>
+<h3 align="center">CSS3</h3>
 
 <h1 align="center">:dart: Objetivo</h1>
 <h3 align="center"></h3>
@@ -33,7 +32,7 @@
 <h3 align="center"></h3>
 
 <div align="center">
-<img align="center" src="">
+<img align="center" src="assets/img/nth-child.png">
 </div>
 
 <h1 align="center">:camera: Imagens do Projeto</h1>
