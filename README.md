@@ -1,4 +1,4 @@
-<h1 align="center">:triangular_ruler: Clone Page GitHub Login</h1>
+<h1 align="center">:triangular_ruler: Clone Login Page GitHub</h1>
 
 # :memo: Índice
 * [:chart_with_upwards_trend: Proposta]()
